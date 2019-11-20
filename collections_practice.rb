@@ -21,3 +21,8 @@ def sort_array_char_count(strings)
   end)
   sorted_by_length
 end
+
+def swap_elements(array)
+  swapped_array = []
+  array.each_index do |element|
+    if (element == 1)
