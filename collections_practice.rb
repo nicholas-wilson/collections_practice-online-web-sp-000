@@ -8,5 +8,5 @@ def sort_array_asc(numbers)
       1
     end
   end
-  numbers
+  sorted_nums
 end
