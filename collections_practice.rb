@@ -1,10 +1,10 @@
 def sort_array_asc(numbers)
   numbers.sort do |a, b|
-    if (b < a)
+    if (a < b)
       -1
     elsif (a == b)
       0
-    elsif (b > a)
+    elsif (a > b)
       1
     end
   end
