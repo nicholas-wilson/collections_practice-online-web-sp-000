@@ -3,7 +3,7 @@ def sort_array_asc(numbers)
 end
 
 def sort_array_desc(numbers)
-  numbers.sort do |a, b|
+  sorted_nums = numbers.sort do |a, b|
     if a == b
       0
     elsif a > b
@@ -12,5 +12,5 @@ def sort_array_desc(numbers)
       1
     end
   end
-  numbers
+  sorted_nums
 end
