@@ -50,7 +50,7 @@ end
 def kesha_maker(words)
   kesha_words = []
   words.each_index do |word|
-    kesha_words << word.splice(1, 2, '$')
+    kesha_words << words[word(2, '$')]
   end
   kesha_words
 end
