@@ -26,3 +26,12 @@ def swap_elements(array)
   swapped_array = []
   array.each_index do |element|
     if (element == 1)
+      swapped_array << array[2]
+    elsif (element == 2)
+      swapped_array << array[1]
+    else
+      swapped_array << array[element]
+    end
+  end
+  swapped_array
+end
