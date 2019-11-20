@@ -8,5 +8,6 @@ def sort_array_asc(numbers)
       return 1
     end
   end
+  puts numbers
   numbers
 end
