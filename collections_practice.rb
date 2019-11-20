@@ -65,3 +65,23 @@ def find_a(words)
   end
   words_starting_with_a
 end
+
+def sum_array(numbers)
+  total = 0
+  numbers.each do |number|
+    total += number
+  end
+  total
+end
+
+def add_s(words)
+  words_with_s = []
+  words.each_index do |word|
+    if word == 1
+      words_with_s << words[word]
+    else
+      words_with_s << "#{words[word]}s"
+    end
+  end
+  words_with_s
+end
