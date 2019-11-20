@@ -58,8 +58,8 @@ end
 
 def find_a(words)
   words_starting_with_a = []
-  words_starting_with_a.each do |word|
-    if word.slice(0).downcase == "a"
+  words.each do |word|
+    if word[0].downcase == "a"
       words_starting_with_a << word
     end
   end
