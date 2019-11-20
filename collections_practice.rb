@@ -35,3 +35,14 @@ def swap_elements(array)
   end
   swapped_array
 end
+
+def reverse_array(integers)
+  reversed_array = []
+  counter = integers.length - 1
+
+  while counter >= 0
+    reversed_array << integers[counter]
+    counter -= 1
+  end
+  reversed_array
+end
