@@ -14,3 +14,10 @@ def sort_array_desc(numbers)
   end)
   sorted_nums
 end
+
+def sort_array_char_count(strings)
+  sorted_by_length = (strings.sort do |a, b|
+    a.length <=> b.length
+  end)
+  sorted_by_length
+end
