@@ -46,3 +46,11 @@ def reverse_array(integers)
   end
   reversed_array
 end
+
+def kesha_maker(words)
+  kesha_words = []
+  words.each_index do |word|
+    kesha_words << word.splice(1, 2, '$')
+  end
+  kesha_words
+end
